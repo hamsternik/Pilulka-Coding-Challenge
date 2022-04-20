@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		627CAA772810BB0C00EC89AF /* Pilulka_Coding_ChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627CAA762810BB0C00EC89AF /* Pilulka_Coding_ChallengeApp.swift */; };
+		627CAA792810BB0C00EC89AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627CAA782810BB0C00EC89AF /* ContentView.swift */; };
+		627CAA7B2810BB0D00EC89AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 627CAA7A2810BB0D00EC89AF /* Assets.xcassets */; };
+		627CAA7E2810BB0D00EC89AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 627CAA7D2810BB0D00EC89AF /* Preview Assets.xcassets */; };
+		627CAA882810BB0D00EC89AF /* Pilulka_Coding_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627CAA872810BB0D00EC89AF /* Pilulka_Coding_ChallengeTests.swift */; };
+		627CAA922810BB0D00EC89AF /* Pilulka_Coding_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627CAA912810BB0D00EC89AF /* Pilulka_Coding_ChallengeUITests.swift */; };
+		627CAA942810BB0D00EC89AF /* Pilulka_Coding_ChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627CAA932810BB0D00EC89AF /* Pilulka_Coding_ChallengeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		627CAA842810BB0D00EC89AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 627CAA6B2810BB0B00EC89AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 627CAA722810BB0B00EC89AF;
+			remoteInfo = "Pilulka Coding Challenge";
+		};
+		627CAA8E2810BB0D00EC89AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 627CAA6B2810BB0B00EC89AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 627CAA722810BB0B00EC89AF;
+			remoteInfo = "Pilulka Coding Challenge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		627CAA732810BB0C00EC89AF /* Pilulka Coding Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pilulka Coding Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		627CAA762810BB0C00EC89AF /* Pilulka_Coding_ChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pilulka_Coding_ChallengeApp.swift; sourceTree = "<group>"; };
+		627CAA782810BB0C00EC89AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		627CAA7A2810BB0D00EC89AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		627CAA7D2810BB0D00EC89AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		627CAA832810BB0D00EC89AF /* Pilulka Coding ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pilulka Coding ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		627CAA872810BB0D00EC89AF /* Pilulka_Coding_ChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pilulka_Coding_ChallengeTests.swift; sourceTree = "<group>"; };
+		627CAA8D2810BB0D00EC89AF /* Pilulka Coding ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pilulka Coding ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		627CAA912810BB0D00EC89AF /* Pilulka_Coding_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pilulka_Coding_ChallengeUITests.swift; sourceTree = "<group>"; };
+		627CAA932810BB0D00EC89AF /* Pilulka_Coding_ChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pilulka_Coding_ChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		627CAA702810BB0B00EC89AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		627CAA802810BB0D00EC89AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		627CAA8A2810BB0D00EC89AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		627CAA6A2810BB0B00EC89AF = {
+			isa = PBXGroup;
+			children = (
+				627CAA752810BB0C00EC89AF /* Pilulka Coding Challenge */,
+				627CAA862810BB0D00EC89AF /* Pilulka Coding ChallengeTests */,
+				627CAA902810BB0D00EC89AF /* Pilulka Coding ChallengeUITests */,
+				627CAA742810BB0C00EC89AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		627CAA742810BB0C00EC89AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				627CAA732810BB0C00EC89AF /* Pilulka Coding Challenge.app */,
+				627CAA832810BB0D00EC89AF /* Pilulka Coding ChallengeTests.xctest */,
+				627CAA8D2810BB0D00EC89AF /* Pilulka Coding ChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		627CAA752810BB0C00EC89AF /* Pilulka Coding Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				627CAA762810BB0C00EC89AF /* Pilulka_Coding_ChallengeApp.swift */,
+				627CAA782810BB0C00EC89AF /* ContentView.swift */,
+				627CAA7A2810BB0D00EC89AF /* Assets.xcassets */,
+				627CAA7C2810BB0D00EC89AF /* Preview Content */,
+			);
+			path = "Pilulka Coding Challenge";
+			sourceTree = "<group>";
+		};
+		627CAA7C2810BB0D00EC89AF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				627CAA7D2810BB0D00EC89AF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		627CAA862810BB0D00EC89AF /* Pilulka Coding ChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				627CAA872810BB0D00EC89AF /* Pilulka_Coding_ChallengeTests.swift */,
+			);
+			path = "Pilulka Coding ChallengeTests";
+			sourceTree = "<group>";
+		};
+		627CAA902810BB0D00EC89AF /* Pilulka Coding ChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				627CAA912810BB0D00EC89AF /* Pilulka_Coding_ChallengeUITests.swift */,
+				627CAA932810BB0D00EC89AF /* Pilulka_Coding_ChallengeUITestsLaunchTests.swift */,
+			);
+			path = "Pilulka Coding ChallengeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		627CAA722810BB0B00EC89AF /* Pilulka Coding Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 627CAA972810BB0D00EC89AF /* Build configuration list for PBXNativeTarget "Pilulka Coding Challenge" */;
+			buildPhases = (
+				627CAA6F2810BB0B00EC89AF /* Sources */,
+				627CAA702810BB0B00EC89AF /* Frameworks */,
+				627CAA712810BB0B00EC89AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pilulka Coding Challenge";
+			productName = "Pilulka Coding Challenge";
+			productReference = 627CAA732810BB0C00EC89AF /* Pilulka Coding Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		627CAA822810BB0D00EC89AF /* Pilulka Coding ChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 627CAA9A2810BB0D00EC89AF /* Build configuration list for PBXNativeTarget "Pilulka Coding ChallengeTests" */;
+			buildPhases = (
+				627CAA7F2810BB0D00EC89AF /* Sources */,
+				627CAA802810BB0D00EC89AF /* Frameworks */,
+				627CAA812810BB0D00EC89AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				627CAA852810BB0D00EC89AF /* PBXTargetDependency */,
+			);
+			name = "Pilulka Coding ChallengeTests";
+			productName = "Pilulka Coding ChallengeTests";
+			productReference = 627CAA832810BB0D00EC89AF /* Pilulka Coding ChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		627CAA8C2810BB0D00EC89AF /* Pilulka Coding ChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 627CAA9D2810BB0D00EC89AF /* Build configuration list for PBXNativeTarget "Pilulka Coding ChallengeUITests" */;
+			buildPhases = (
+				627CAA892810BB0D00EC89AF /* Sources */,
+				627CAA8A2810BB0D00EC89AF /* Frameworks */,
+				627CAA8B2810BB0D00EC89AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				627CAA8F2810BB0D00EC89AF /* PBXTargetDependency */,
+			);
+			name = "Pilulka Coding ChallengeUITests";
+			productName = "Pilulka Coding ChallengeUITests";
+			productReference = 627CAA8D2810BB0D00EC89AF /* Pilulka Coding ChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		627CAA6B2810BB0B00EC89AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					627CAA722810BB0B00EC89AF = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					627CAA822810BB0D00EC89AF = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 627CAA722810BB0B00EC89AF;
+					};
+					627CAA8C2810BB0D00EC89AF = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 627CAA722810BB0B00EC89AF;
+					};
+				};
+			};
+			buildConfigurationList = 627CAA6E2810BB0B00EC89AF /* Build configuration list for PBXProject "Pilulka Coding Challenge" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 627CAA6A2810BB0B00EC89AF;
+			productRefGroup = 627CAA742810BB0C00EC89AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				627CAA722810BB0B00EC89AF /* Pilulka Coding Challenge */,
+				627CAA822810BB0D00EC89AF /* Pilulka Coding ChallengeTests */,
+				627CAA8C2810BB0D00EC89AF /* Pilulka Coding ChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		627CAA712810BB0B00EC89AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				627CAA7E2810BB0D00EC89AF /* Preview Assets.xcassets in Resources */,
+				627CAA7B2810BB0D00EC89AF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		627CAA812810BB0D00EC89AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		627CAA8B2810BB0D00EC89AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		627CAA6F2810BB0B00EC89AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				627CAA792810BB0C00EC89AF /* ContentView.swift in Sources */,
+				627CAA772810BB0C00EC89AF /* Pilulka_Coding_ChallengeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		627CAA7F2810BB0D00EC89AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				627CAA882810BB0D00EC89AF /* Pilulka_Coding_ChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		627CAA892810BB0D00EC89AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				627CAA922810BB0D00EC89AF /* Pilulka_Coding_ChallengeUITests.swift in Sources */,
+				627CAA942810BB0D00EC89AF /* Pilulka_Coding_ChallengeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		627CAA852810BB0D00EC89AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 627CAA722810BB0B00EC89AF /* Pilulka Coding Challenge */;
+			targetProxy = 627CAA842810BB0D00EC89AF /* PBXContainerItemProxy */;
+		};
+		627CAA8F2810BB0D00EC89AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 627CAA722810BB0B00EC89AF /* Pilulka Coding Challenge */;
+			targetProxy = 627CAA8E2810BB0D00EC89AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		627CAA952810BB0D00EC89AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		627CAA962810BB0D00EC89AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		627CAA982810BB0D00EC89AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pilulka Coding Challenge/Preview Content\"";
+				DEVELOPMENT_TEAM = BDFH92684W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.interview.Pilulka-Coding-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		627CAA992810BB0D00EC89AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pilulka Coding Challenge/Preview Content\"";
+				DEVELOPMENT_TEAM = BDFH92684W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.interview.Pilulka-Coding-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		627CAA9B2810BB0D00EC89AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BDFH92684W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.interview.Pilulka-Coding-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pilulka Coding Challenge.app/Pilulka Coding Challenge";
+			};
+			name = Debug;
+		};
+		627CAA9C2810BB0D00EC89AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BDFH92684W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.interview.Pilulka-Coding-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pilulka Coding Challenge.app/Pilulka Coding Challenge";
+			};
+			name = Release;
+		};
+		627CAA9E2810BB0D00EC89AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BDFH92684W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.interview.Pilulka-Coding-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pilulka Coding Challenge";
+			};
+			name = Debug;
+		};
+		627CAA9F2810BB0D00EC89AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BDFH92684W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.interview.Pilulka-Coding-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pilulka Coding Challenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		627CAA6E2810BB0B00EC89AF /* Build configuration list for PBXProject "Pilulka Coding Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				627CAA952810BB0D00EC89AF /* Debug */,
+				627CAA962810BB0D00EC89AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		627CAA972810BB0D00EC89AF /* Build configuration list for PBXNativeTarget "Pilulka Coding Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				627CAA982810BB0D00EC89AF /* Debug */,
+				627CAA992810BB0D00EC89AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		627CAA9A2810BB0D00EC89AF /* Build configuration list for PBXNativeTarget "Pilulka Coding ChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				627CAA9B2810BB0D00EC89AF /* Debug */,
+				627CAA9C2810BB0D00EC89AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		627CAA9D2810BB0D00EC89AF /* Build configuration list for PBXNativeTarget "Pilulka Coding ChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				627CAA9E2810BB0D00EC89AF /* Debug */,
+				627CAA9F2810BB0D00EC89AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 627CAA6B2810BB0B00EC89AF /* Project object */;
+}
