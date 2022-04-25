@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		627CAA772810BB0C00EC89AF /* Pilulka_Coding_ChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627CAA762810BB0C00EC89AF /* Pilulka_Coding_ChallengeApp.swift */; };
+		627CAA772810BB0C00EC89AF /* MainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627CAA762810BB0C00EC89AF /* MainApp.swift */; };
 		627CAA792810BB0C00EC89AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627CAA782810BB0C00EC89AF /* ContentView.swift */; };
 		627CAA7B2810BB0D00EC89AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 627CAA7A2810BB0D00EC89AF /* Assets.xcassets */; };
 		627CAA7E2810BB0D00EC89AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 627CAA7D2810BB0D00EC89AF /* Preview Assets.xcassets */; };
 		627CAA882810BB0D00EC89AF /* Pilulka_Coding_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627CAA872810BB0D00EC89AF /* Pilulka_Coding_ChallengeTests.swift */; };
 		627CAA922810BB0D00EC89AF /* Pilulka_Coding_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627CAA912810BB0D00EC89AF /* Pilulka_Coding_ChallengeUITests.swift */; };
 		627CAA942810BB0D00EC89AF /* Pilulka_Coding_ChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627CAA932810BB0D00EC89AF /* Pilulka_Coding_ChallengeUITestsLaunchTests.swift */; };
+		627D32BE2812D71600CF22DD /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627D32BD2812D71600CF22DD /* Colors.swift */; };
+		628276F8281727A600FA2190 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 628276F7281727A600FA2190 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +37,7 @@
 
 /* Begin PBXFileReference section */
 		627CAA732810BB0C00EC89AF /* Pilulka Coding Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pilulka Coding Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		627CAA762810BB0C00EC89AF /* Pilulka_Coding_ChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pilulka_Coding_ChallengeApp.swift; sourceTree = "<group>"; };
+		627CAA762810BB0C00EC89AF /* MainApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainApp.swift; sourceTree = "<group>"; };
 		627CAA782810BB0C00EC89AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		627CAA7A2810BB0D00EC89AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		627CAA7D2810BB0D00EC89AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -44,6 +46,8 @@
 		627CAA8D2810BB0D00EC89AF /* Pilulka Coding ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pilulka Coding ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		627CAA912810BB0D00EC89AF /* Pilulka_Coding_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pilulka_Coding_ChallengeUITests.swift; sourceTree = "<group>"; };
 		627CAA932810BB0D00EC89AF /* Pilulka_Coding_ChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pilulka_Coding_ChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		627D32BD2812D71600CF22DD /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		628276F7281727A600FA2190 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,7 @@
 		627CAA6A2810BB0B00EC89AF = {
 			isa = PBXGroup;
 			children = (
+				628276F7281727A600FA2190 /* README.md */,
 				627CAA752810BB0C00EC89AF /* Pilulka Coding Challenge */,
 				627CAA862810BB0D00EC89AF /* Pilulka Coding ChallengeTests */,
 				627CAA902810BB0D00EC89AF /* Pilulka Coding ChallengeUITests */,
@@ -94,8 +99,9 @@
 		627CAA752810BB0C00EC89AF /* Pilulka Coding Challenge */ = {
 			isa = PBXGroup;
 			children = (
-				627CAA762810BB0C00EC89AF /* Pilulka_Coding_ChallengeApp.swift */,
+				627CAA762810BB0C00EC89AF /* MainApp.swift */,
 				627CAA782810BB0C00EC89AF /* ContentView.swift */,
+				627D32BD2812D71600CF22DD /* Colors.swift */,
 				627CAA7A2810BB0D00EC89AF /* Assets.xcassets */,
 				627CAA7C2810BB0D00EC89AF /* Preview Content */,
 			);
@@ -231,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				628276F8281727A600FA2190 /* README.md in Resources */,
 				627CAA7E2810BB0D00EC89AF /* Preview Assets.xcassets in Resources */,
 				627CAA7B2810BB0D00EC89AF /* Assets.xcassets in Resources */,
 			);
@@ -258,7 +265,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				627CAA792810BB0C00EC89AF /* ContentView.swift in Sources */,
-				627CAA772810BB0C00EC89AF /* Pilulka_Coding_ChallengeApp.swift in Sources */,
+				627CAA772810BB0C00EC89AF /* MainApp.swift in Sources */,
+				627D32BE2812D71600CF22DD /* Colors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

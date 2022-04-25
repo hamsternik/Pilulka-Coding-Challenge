@@ -8,10 +8,11 @@
 import SwiftUI
 
 @main
-struct Pilulka_Coding_ChallengeApp: App {
+struct MainApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .accentColor(.appAccentColor)
         }
     }
 }
