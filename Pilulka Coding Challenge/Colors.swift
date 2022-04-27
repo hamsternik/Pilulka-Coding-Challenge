@@ -9,6 +9,10 @@ import SwiftUI
 
 extension Color {
     public static var appAccentColor: Color {
-        Color("AccentColor", bundle: Bundle.main)
+        Color("AccentColor", bundle: .main)
+    }
+    
+    public static var primary: Color {
+        Color("Primary", bundle: .main)
     }
 }

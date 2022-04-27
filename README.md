@@ -17,5 +17,4 @@
 - [openSky REST API documentation](https://openskynetwork.github.io/opensky-api/)
 - [Convert Unix timestamp to the date](https://www.unixtimestamp.com/index.php)
 - [The iOS Font Size Guidelines (Updated for iOS 15)](https://learnui.design/blog/ios-font-size-guidelines.html)
-- [icon8, map icon](https://icons8.com/icons/set/map)
-- [icon8, list icon](https://icons8.com/icons/set/list)
+

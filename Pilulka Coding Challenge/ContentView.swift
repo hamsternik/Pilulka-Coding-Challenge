@@ -9,8 +9,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TabView {
+            Text("List of Available Aircrafts").tabItem {
+                Image(systemName: "list.bullet")
+                Text("List")
+            }
+            Text("Map of Available Aircrafts").tabItem {
+                Image(systemName: "map.circle.fill")
+                Text("Map")
+            }
+        }
     }
 }
 
