@@ -12,7 +12,11 @@ extension Color {
         Color("AccentColor", bundle: .main)
     }
     
-    public static var primary: Color {
+    public static var appPrimary: Color {
         Color("Primary", bundle: .main)
+    }
+    
+    public static var background: Color {
+        Color("Background", bundle: .main)
     }
 }

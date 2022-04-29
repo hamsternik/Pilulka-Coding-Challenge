@@ -16,6 +16,10 @@
 		627CAA942810BB0D00EC89AF /* Pilulka_Coding_ChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627CAA932810BB0D00EC89AF /* Pilulka_Coding_ChallengeUITestsLaunchTests.swift */; };
 		627D32BE2812D71600CF22DD /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627D32BD2812D71600CF22DD /* Colors.swift */; };
 		628276F8281727A600FA2190 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 628276F7281727A600FA2190 /* README.md */; };
+		6289C506281A055000A2251D /* AircraftsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6289C505281A055000A2251D /* AircraftsListView.swift */; };
+		6289C508281A058300A2251D /* AircraftsMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6289C507281A058300A2251D /* AircraftsMapView.swift */; };
+		62D5C62C281C139F004F7766 /* FlightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D5C62B281C139F004F7766 /* FlightView.swift */; };
+		62D5C62E281C270A004F7766 /* CountryFlagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D5C62D281C270A004F7766 /* CountryFlagView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,10 @@
 		627CAA932810BB0D00EC89AF /* Pilulka_Coding_ChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pilulka_Coding_ChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		627D32BD2812D71600CF22DD /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		628276F7281727A600FA2190 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6289C505281A055000A2251D /* AircraftsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AircraftsListView.swift; sourceTree = "<group>"; };
+		6289C507281A058300A2251D /* AircraftsMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AircraftsMapView.swift; sourceTree = "<group>"; };
+		62D5C62B281C139F004F7766 /* FlightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightView.swift; sourceTree = "<group>"; };
+		62D5C62D281C270A004F7766 /* CountryFlagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryFlagView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,10 @@
 			children = (
 				627CAA762810BB0C00EC89AF /* MainApp.swift */,
 				627CAA782810BB0C00EC89AF /* ContentView.swift */,
+				6289C507281A058300A2251D /* AircraftsMapView.swift */,
+				6289C505281A055000A2251D /* AircraftsListView.swift */,
+				62D5C62B281C139F004F7766 /* FlightView.swift */,
+				62D5C62D281C270A004F7766 /* CountryFlagView.swift */,
 				627D32BD2812D71600CF22DD /* Colors.swift */,
 				627CAA7A2810BB0D00EC89AF /* Assets.xcassets */,
 				627CAA7C2810BB0D00EC89AF /* Preview Content */,
@@ -264,8 +276,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6289C508281A058300A2251D /* AircraftsMapView.swift in Sources */,
+				6289C506281A055000A2251D /* AircraftsListView.swift in Sources */,
+				62D5C62E281C270A004F7766 /* CountryFlagView.swift in Sources */,
 				627CAA792810BB0C00EC89AF /* ContentView.swift in Sources */,
 				627CAA772810BB0C00EC89AF /* MainApp.swift in Sources */,
+				62D5C62C281C139F004F7766 /* FlightView.swift in Sources */,
 				627D32BE2812D71600CF22DD /* Colors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

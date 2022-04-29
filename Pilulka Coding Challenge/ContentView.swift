@@ -10,11 +10,11 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView {
-            Text("List of Available Aircrafts").tabItem {
+            AircraftsListView().tabItem {
                 Image(systemName: "list.bullet")
                 Text("List")
             }
-            Text("Map of Available Aircrafts").tabItem {
+            AircraftsMapView().tabItem {
                 Image(systemName: "map.circle.fill")
                 Text("Map")
             }
