@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct AircraftsListView: View {
+    let viewModel: AircraftsListViewModel
+    
     var body: some View {
         NavigationView {
             ZStack {
@@ -25,18 +27,24 @@ struct AircraftsListView: View {
             }
             .navigationBarTitle("Czech Republic Flights")
         }
+        .onAppear {
+            viewModel.initialiseIfRequired()
+        }
     }
     
-    init() {
+    init(viewModel: AircraftsListViewModel) {
+        self.viewModel = viewModel
         UINavigationBar.appearance().largeTitleTextAttributes = [
             .font: UIFont.systemFont(ofSize: 28, weight: .bold)
         ]
     }
+    
+    
 }
 
 struct AircraftsListView_Previews: PreviewProvider {
     static var previews: some View {
-        AircraftsListView()
+        AircraftsListView(viewModel: .init(network: MockNetwork()))
     }
 }
 

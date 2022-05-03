@@ -20,6 +20,8 @@
 		6289C508281A058300A2251D /* AircraftsMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6289C507281A058300A2251D /* AircraftsMapView.swift */; };
 		62D5C62C281C139F004F7766 /* FlightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D5C62B281C139F004F7766 /* FlightView.swift */; };
 		62D5C62E281C270A004F7766 /* CountryFlagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D5C62D281C270A004F7766 /* CountryFlagView.swift */; };
+		62FBB6A52821565F008C2E42 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FBB6A42821565F008C2E42 /* Network.swift */; };
+		62FBB6A728216EC5008C2E42 /* AircraftsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FBB6A628216EC5008C2E42 /* AircraftsListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		6289C507281A058300A2251D /* AircraftsMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AircraftsMapView.swift; sourceTree = "<group>"; };
 		62D5C62B281C139F004F7766 /* FlightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightView.swift; sourceTree = "<group>"; };
 		62D5C62D281C270A004F7766 /* CountryFlagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryFlagView.swift; sourceTree = "<group>"; };
+		62FBB6A42821565F008C2E42 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		62FBB6A628216EC5008C2E42 /* AircraftsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AircraftsListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,13 +111,15 @@
 		627CAA752810BB0C00EC89AF /* Pilulka Coding Challenge */ = {
 			isa = PBXGroup;
 			children = (
-				627CAA762810BB0C00EC89AF /* MainApp.swift */,
-				627CAA782810BB0C00EC89AF /* ContentView.swift */,
 				6289C507281A058300A2251D /* AircraftsMapView.swift */,
 				6289C505281A055000A2251D /* AircraftsListView.swift */,
-				62D5C62B281C139F004F7766 /* FlightView.swift */,
+				62FBB6A628216EC5008C2E42 /* AircraftsListViewModel.swift */,
+				627CAA782810BB0C00EC89AF /* ContentView.swift */,
 				62D5C62D281C270A004F7766 /* CountryFlagView.swift */,
 				627D32BD2812D71600CF22DD /* Colors.swift */,
+				627CAA762810BB0C00EC89AF /* MainApp.swift */,
+				62D5C62B281C139F004F7766 /* FlightView.swift */,
+				62FBB6A42821565F008C2E42 /* Network.swift */,
 				627CAA7A2810BB0D00EC89AF /* Assets.xcassets */,
 				627CAA7C2810BB0D00EC89AF /* Preview Content */,
 			);
@@ -278,7 +284,9 @@
 			files = (
 				6289C508281A058300A2251D /* AircraftsMapView.swift in Sources */,
 				6289C506281A055000A2251D /* AircraftsListView.swift in Sources */,
+				62FBB6A52821565F008C2E42 /* Network.swift in Sources */,
 				62D5C62E281C270A004F7766 /* CountryFlagView.swift in Sources */,
+				62FBB6A728216EC5008C2E42 /* AircraftsListViewModel.swift in Sources */,
 				627CAA792810BB0C00EC89AF /* ContentView.swift in Sources */,
 				627CAA772810BB0C00EC89AF /* MainApp.swift in Sources */,
 				62D5C62C281C139F004F7766 /* FlightView.swift in Sources */,
