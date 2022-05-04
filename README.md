@@ -13,8 +13,8 @@ Bounding box for Czech Republic:
 - [Bounding Box Finder (Map)](http://bboxfinder.com)
 
 Cloud API
+- [openSky REST API documentation](https://openskynetwork.github.io/opensky-api/rest.html)
 - [OpenSky Network Map](https://opensky-network.org/network/explorer)
-- [openSky REST API documentation](https://openskynetwork.github.io/opensky-api/)
 - [Convert Unix timestamp to the date](https://www.unixtimestamp.com/index.php)
 
 ### Networking
