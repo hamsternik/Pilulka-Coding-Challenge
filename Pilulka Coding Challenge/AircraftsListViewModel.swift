@@ -13,16 +13,21 @@ final class AircraftsListViewModel: ObservableObject {
     }
     
     func initialiseIfRequired() {
-        do {
-            try network
-                .getAllStates()
-                .sink { _ in /*print("network method getAllStates() has been called from ViewModel")*/ }
-                .store(in: &subscriptions)
-        } catch {
-//            print("some error has caught in ViewModel")
-        }
+        network
+            .getAllStates()
+            .sink(receiveCompletion: { error in
+                print(String(describing: error))
+            }, receiveValue: {
+                do {
+                    self.stateVectors = try StateVectors(from: $0)
+                } catch {
+                    print("AircraftsListViewModel::Error due StateVectors parsing: \(error)")
+                }
+            })
+            .store(in: &subscriptions)
     }
     
     private let network: Networking
+    private var stateVectors: StateVectors = .empty
     private var subscriptions = Set<AnyCancellable>()
 }

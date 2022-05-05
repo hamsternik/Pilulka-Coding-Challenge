@@ -11,7 +11,6 @@
 		627CAA792810BB0C00EC89AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627CAA782810BB0C00EC89AF /* ContentView.swift */; };
 		627CAA7B2810BB0D00EC89AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 627CAA7A2810BB0D00EC89AF /* Assets.xcassets */; };
 		627CAA7E2810BB0D00EC89AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 627CAA7D2810BB0D00EC89AF /* Preview Assets.xcassets */; };
-		627CAA882810BB0D00EC89AF /* Pilulka_Coding_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627CAA872810BB0D00EC89AF /* Pilulka_Coding_ChallengeTests.swift */; };
 		627CAA922810BB0D00EC89AF /* Pilulka_Coding_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627CAA912810BB0D00EC89AF /* Pilulka_Coding_ChallengeUITests.swift */; };
 		627CAA942810BB0D00EC89AF /* Pilulka_Coding_ChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627CAA932810BB0D00EC89AF /* Pilulka_Coding_ChallengeUITestsLaunchTests.swift */; };
 		627D32BE2812D71600CF22DD /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627D32BD2812D71600CF22DD /* Colors.swift */; };
@@ -20,6 +19,12 @@
 		6289C508281A058300A2251D /* AircraftsMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6289C507281A058300A2251D /* AircraftsMapView.swift */; };
 		62D5C62C281C139F004F7766 /* FlightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D5C62B281C139F004F7766 /* FlightView.swift */; };
 		62D5C62E281C270A004F7766 /* CountryFlagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D5C62D281C270A004F7766 /* CountryFlagView.swift */; };
+		62DD12D82823D62F00BF2B92 /* StateVectors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DD12D72823D62F00BF2B92 /* StateVectors.swift */; };
+		62DD12DA2823D81F00BF2B92 /* ModelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DD12D92823D81F00BF2B92 /* ModelsTests.swift */; };
+		62DD12DC2823DA0500BF2B92 /* StatesAllGETResponseBody.json in Resources */ = {isa = PBXBuildFile; fileRef = 62DD12DB2823DA0500BF2B92 /* StatesAllGETResponseBody.json */; };
+		62DD12DE2824339900BF2B92 /* ResponseBodies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DD12DD2824339900BF2B92 /* ResponseBodies.swift */; };
+		62DD12E0282439B000BF2B92 /* Bundle+Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DD12DF282439B000BF2B92 /* Bundle+Tests.swift */; };
+		62DD12E228243E7800BF2B92 /* Data+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DD12E128243E7800BF2B92 /* Data+JSON.swift */; };
 		62FBB6A52821565F008C2E42 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FBB6A42821565F008C2E42 /* Network.swift */; };
 		62FBB6A728216EC5008C2E42 /* AircraftsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FBB6A628216EC5008C2E42 /* AircraftsListViewModel.swift */; };
 /* End PBXBuildFile section */
@@ -48,7 +53,6 @@
 		627CAA7A2810BB0D00EC89AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		627CAA7D2810BB0D00EC89AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		627CAA832810BB0D00EC89AF /* Pilulka Coding ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pilulka Coding ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		627CAA872810BB0D00EC89AF /* Pilulka_Coding_ChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pilulka_Coding_ChallengeTests.swift; sourceTree = "<group>"; };
 		627CAA8D2810BB0D00EC89AF /* Pilulka Coding ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pilulka Coding ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		627CAA912810BB0D00EC89AF /* Pilulka_Coding_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pilulka_Coding_ChallengeUITests.swift; sourceTree = "<group>"; };
 		627CAA932810BB0D00EC89AF /* Pilulka_Coding_ChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pilulka_Coding_ChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -58,6 +62,12 @@
 		6289C507281A058300A2251D /* AircraftsMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AircraftsMapView.swift; sourceTree = "<group>"; };
 		62D5C62B281C139F004F7766 /* FlightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightView.swift; sourceTree = "<group>"; };
 		62D5C62D281C270A004F7766 /* CountryFlagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryFlagView.swift; sourceTree = "<group>"; };
+		62DD12D72823D62F00BF2B92 /* StateVectors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateVectors.swift; sourceTree = "<group>"; };
+		62DD12D92823D81F00BF2B92 /* ModelsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsTests.swift; sourceTree = "<group>"; };
+		62DD12DB2823DA0500BF2B92 /* StatesAllGETResponseBody.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = StatesAllGETResponseBody.json; sourceTree = "<group>"; };
+		62DD12DD2824339900BF2B92 /* ResponseBodies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseBodies.swift; sourceTree = "<group>"; };
+		62DD12DF282439B000BF2B92 /* Bundle+Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Tests.swift"; sourceTree = "<group>"; };
+		62DD12E128243E7800BF2B92 /* Data+JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+JSON.swift"; sourceTree = "<group>"; };
 		62FBB6A42821565F008C2E42 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		62FBB6A628216EC5008C2E42 /* AircraftsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AircraftsListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -120,6 +130,8 @@
 				627CAA762810BB0C00EC89AF /* MainApp.swift */,
 				62D5C62B281C139F004F7766 /* FlightView.swift */,
 				62FBB6A42821565F008C2E42 /* Network.swift */,
+				62DD12D72823D62F00BF2B92 /* StateVectors.swift */,
+				62DD12DD2824339900BF2B92 /* ResponseBodies.swift */,
 				627CAA7A2810BB0D00EC89AF /* Assets.xcassets */,
 				627CAA7C2810BB0D00EC89AF /* Preview Content */,
 			);
@@ -137,7 +149,10 @@
 		627CAA862810BB0D00EC89AF /* Pilulka Coding ChallengeTests */ = {
 			isa = PBXGroup;
 			children = (
-				627CAA872810BB0D00EC89AF /* Pilulka_Coding_ChallengeTests.swift */,
+				62DD12E32824414C00BF2B92 /* JSON */,
+				62DD12DF282439B000BF2B92 /* Bundle+Tests.swift */,
+				62DD12E128243E7800BF2B92 /* Data+JSON.swift */,
+				62DD12D92823D81F00BF2B92 /* ModelsTests.swift */,
 			);
 			path = "Pilulka Coding ChallengeTests";
 			sourceTree = "<group>";
@@ -149,6 +164,14 @@
 				627CAA932810BB0D00EC89AF /* Pilulka_Coding_ChallengeUITestsLaunchTests.swift */,
 			);
 			path = "Pilulka Coding ChallengeUITests";
+			sourceTree = "<group>";
+		};
+		62DD12E32824414C00BF2B92 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				62DD12DB2823DA0500BF2B92 /* StatesAllGETResponseBody.json */,
+			);
+			path = JSON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +288,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62DD12DC2823DA0500BF2B92 /* StatesAllGETResponseBody.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +315,8 @@
 				627CAA772810BB0C00EC89AF /* MainApp.swift in Sources */,
 				62D5C62C281C139F004F7766 /* FlightView.swift in Sources */,
 				627D32BE2812D71600CF22DD /* Colors.swift in Sources */,
+				62DD12D82823D62F00BF2B92 /* StateVectors.swift in Sources */,
+				62DD12DE2824339900BF2B92 /* ResponseBodies.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +324,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				627CAA882810BB0D00EC89AF /* Pilulka_Coding_ChallengeTests.swift in Sources */,
+				62DD12DA2823D81F00BF2B92 /* ModelsTests.swift in Sources */,
+				62DD12E228243E7800BF2B92 /* Data+JSON.swift in Sources */,
+				62DD12E0282439B000BF2B92 /* Bundle+Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
