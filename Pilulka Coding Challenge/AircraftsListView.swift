@@ -42,11 +42,11 @@ struct AircraftsListView: View {
     
 }
 
-//struct AircraftsListView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        AircraftsListView(viewModel: .init(network: MockNetwork()))
-//    }
-//}
+struct AircraftsListView_Previews: PreviewProvider {
+    static var previews: some View {
+        AircraftsListView(viewModel: .init(network: MockNetwork()))
+    }
+}
 
 // MARK: - Model
 

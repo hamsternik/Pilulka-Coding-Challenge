@@ -43,6 +43,12 @@ struct Network: Networking {
     private var baseURL: URL? { URL(string: "https://opensky-network.org/api") }
 }
 
+struct MockNetwork: Networking {
+    func getAllStates() -> AllStatesGETPublisher {
+        return Just(Data()).mapError { _ in .brokenURL }.eraseToAnyPublisher()
+    }
+}
+
 // MARK: -
 
 enum NetworkError: LocalizedError {
