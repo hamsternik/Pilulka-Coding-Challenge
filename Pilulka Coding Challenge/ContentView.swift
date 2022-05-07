@@ -10,8 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView {
-            let networking = Network()
-            let listViewModel = AircraftsListViewModel(network: networking)
+            let listViewModel = AircraftsListViewModel()
             AircraftsListView(viewModel: listViewModel).tabItem {
                 Image(systemName: "list.bullet")
                 Text("List")

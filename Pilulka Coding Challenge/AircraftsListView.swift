@@ -44,12 +44,14 @@ struct AircraftsListView: View {
 
 struct AircraftsListView_Previews: PreviewProvider {
     static var previews: some View {
-        AircraftsListView(viewModel: .init(network: MockNetwork()))
+        AircraftsListView(viewModel: .init(networkService: EmptyRequestable()))
     }
 }
 
 // MARK: - Model
 
+// TODO move out into `ResponseBody`;
+// TODO replace mock data with real response body model
 typealias Flight = FlightViewModel
 private let mockFlights: [Flight] = [
     Flight(callsign: "WZZ1593", originCountry: "🇺🇦", departureTitle: "LGAV", arrivalTitle: "LLBG", firstSeen: "3:15pm", lastSeen: "5:45pm"),

@@ -8,26 +8,29 @@
 import Combine
 
 final class AircraftsListViewModel: ObservableObject {
-    init(network: Networking) {
-        self.network = network
+    init(networkService: Requestable = NetworkService()) {
+        self.networkService = networkService
     }
     
     func initialiseIfRequired() {
-        network
-            .getAllStates()
+        networkService
+            .getAllStates(lamin: 48.55, lomin: 12.9, lamax: 51.06, lomax: 18.87)
             .sink(receiveCompletion: { error in
                 print(String(describing: error))
             }, receiveValue: {
                 do {
                     self.stateVectors = try StateVectors(from: $0)
+                    print(">> \(Self.self)::success\n")
                 } catch {
-                    print("AircraftsListViewModel::Error due StateVectors parsing: \(error)")
+                    print(">> \(Self.self)::failure\nError from `GET /all/states`: \(error)")
                 }
             })
             .store(in: &subscriptions)
+        
+        // TODO call `networkService.getFlightsAircraft(:)`
     }
     
-    private let network: Networking
+    private let networkService: Requestable
     private var stateVectors: StateVectors = .empty
     private var subscriptions = Set<AnyCancellable>()
 }

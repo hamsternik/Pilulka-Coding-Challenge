@@ -26,7 +26,9 @@
 		62DD12E0282439B000BF2B92 /* Bundle+Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DD12DF282439B000BF2B92 /* Bundle+Tests.swift */; };
 		62DD12E228243E7800BF2B92 /* Data+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DD12E128243E7800BF2B92 /* Data+JSON.swift */; };
 		62DD12E52824616500BF2B92 /* GETFlightsAircraftResponseBody.json in Resources */ = {isa = PBXBuildFile; fileRef = 62DD12E42824616500BF2B92 /* GETFlightsAircraftResponseBody.json */; };
-		62F3E7892826FB2F00DA58E6 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F3E7882826FB2F00DA58E6 /* Network.swift */; };
+		62F3E78B2826FCC100DA58E6 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F3E78A2826FCC100DA58E6 /* Request.swift */; };
+		62F3E78D2827008F00DA58E6 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F3E78C2827008F00DA58E6 /* NetworkService.swift */; };
+		62F3E78F2827088B00DA58E6 /* RequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F3E78E2827088B00DA58E6 /* RequestTests.swift */; };
 		62FBB6A728216EC5008C2E42 /* AircraftsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FBB6A628216EC5008C2E42 /* AircraftsListViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -70,7 +72,9 @@
 		62DD12DF282439B000BF2B92 /* Bundle+Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Tests.swift"; sourceTree = "<group>"; };
 		62DD12E128243E7800BF2B92 /* Data+JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+JSON.swift"; sourceTree = "<group>"; };
 		62DD12E42824616500BF2B92 /* GETFlightsAircraftResponseBody.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = GETFlightsAircraftResponseBody.json; sourceTree = "<group>"; };
-		62F3E7882826FB2F00DA58E6 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		62F3E78A2826FCC100DA58E6 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		62F3E78C2827008F00DA58E6 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		62F3E78E2827088B00DA58E6 /* RequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestTests.swift; sourceTree = "<group>"; };
 		62FBB6A628216EC5008C2E42 /* AircraftsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AircraftsListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -131,7 +135,8 @@
 				627D32BD2812D71600CF22DD /* Colors.swift */,
 				62D5C62B281C139F004F7766 /* FlightView.swift */,
 				627CAA762810BB0C00EC89AF /* MainApp.swift */,
-				62F3E7882826FB2F00DA58E6 /* Network.swift */,
+				62F3E78C2827008F00DA58E6 /* NetworkService.swift */,
+				62F3E78A2826FCC100DA58E6 /* Request.swift */,
 				62DD12DD2824339900BF2B92 /* ResponseBody.swift */,
 				62DD12D72823D62F00BF2B92 /* StateVectors.swift */,
 				627CAA7A2810BB0D00EC89AF /* Assets.xcassets */,
@@ -155,6 +160,7 @@
 				62DD12DF282439B000BF2B92 /* Bundle+Tests.swift */,
 				62DD12E128243E7800BF2B92 /* Data+JSON.swift */,
 				62DD12D92823D81F00BF2B92 /* ModelsTests.swift */,
+				62F3E78E2827088B00DA58E6 /* RequestTests.swift */,
 			);
 			path = "Pilulka Coding ChallengeTests";
 			sourceTree = "<group>";
@@ -311,8 +317,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6289C508281A058300A2251D /* AircraftsMapView.swift in Sources */,
+				62F3E78B2826FCC100DA58E6 /* Request.swift in Sources */,
 				6289C506281A055000A2251D /* AircraftsListView.swift in Sources */,
-				62F3E7892826FB2F00DA58E6 /* Network.swift in Sources */,
 				62D5C62E281C270A004F7766 /* CountryFlagView.swift in Sources */,
 				62FBB6A728216EC5008C2E42 /* AircraftsListViewModel.swift in Sources */,
 				627CAA792810BB0C00EC89AF /* ContentView.swift in Sources */,
@@ -320,6 +326,7 @@
 				62D5C62C281C139F004F7766 /* FlightView.swift in Sources */,
 				627D32BE2812D71600CF22DD /* Colors.swift in Sources */,
 				62DD12D82823D62F00BF2B92 /* StateVectors.swift in Sources */,
+				62F3E78D2827008F00DA58E6 /* NetworkService.swift in Sources */,
 				62DD12DE2824339900BF2B92 /* ResponseBody.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -329,6 +336,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				62DD12DA2823D81F00BF2B92 /* ModelsTests.swift in Sources */,
+				62F3E78F2827088B00DA58E6 /* RequestTests.swift in Sources */,
 				62DD12E228243E7800BF2B92 /* Data+JSON.swift in Sources */,
 				62DD12E0282439B000BF2B92 /* Bundle+Tests.swift in Sources */,
 			);
