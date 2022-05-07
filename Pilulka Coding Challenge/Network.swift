@@ -7,17 +7,19 @@
 
 import Combine
 import Foundation
+import CoreText
 
 // MARK: -
 
-typealias AllStatesGETPublisher = AnyPublisher<Data, NetworkError>
+typealias NetworkResultPublisher = AnyPublisher<Data, NetworkError>
 
 protocol Networking {
-    func getAllStates() -> AllStatesGETPublisher
+    func getAllStates() -> NetworkResultPublisher
+    func getFlightsAircraft(icao24: String, begin: Int, end: Int) -> NetworkResultPublisher
 }
 
 struct Network: Networking {
-    func getAllStates() -> AllStatesGETPublisher {
+    func getAllStates() -> NetworkResultPublisher {
         let params = ["lamin": "48.55", "lomin": "12.9", "lamax": "51.06", "lomax": "18.87"]
         
         var components = URLComponents()
@@ -27,9 +29,7 @@ struct Network: Networking {
         components.setQuery(with: params)
         
         guard let url = components.url?.absoluteURL else {
-            return Just(.init())
-                .mapError { _ in NetworkError.brokenURL }
-                .eraseToAnyPublisher()
+            return .empty
         }
         
         return session
@@ -39,14 +39,33 @@ struct Network: Networking {
             .eraseToAnyPublisher()
     }
     
+    func getFlightsAircraft(icao24: String = "3c4b31", begin: Int, end: Int) -> NetworkResultPublisher {
+        let params = ["icao24": icao24, "begin": String(begin), "end": String(end)]
+        
+        var components = URLComponents()
+        components.scheme = "https"
+        components.host = "opensky-network.org"
+        components.path = "/api/flights/aircraft"
+        components.setQuery(with: params)
+        
+        guard let url = components.url?.absoluteURL else {
+            return .empty
+        }
+        
+        return session
+            .dataTaskPublisher(for: url)
+            .map(\.data)
+            .mapError { NetworkError.sessionError($0) }
+            .eraseToAnyPublisher()
+    }
+    
     private let session = URLSession.shared
     private var baseURL: URL? { URL(string: "https://opensky-network.org/api") }
 }
 
 struct MockNetwork: Networking {
-    func getAllStates() -> AllStatesGETPublisher {
-        return Just(Data()).mapError { _ in .brokenURL }.eraseToAnyPublisher()
-    }
+    func getAllStates() -> NetworkResultPublisher { .empty }
+    func getFlightsAircraft(icao24: String, begin: Int, end: Int) -> NetworkResultPublisher { .empty }
 }
 
 // MARK: -
@@ -69,4 +88,8 @@ private extension URLComponents {
     mutating func setQuery(with params: [String: String]) {
         queryItems = params.map { URLQueryItem(name: $0.key, value: $0.value) }
     }
+}
+
+extension AnyPublisher where Output == Data, Failure == NetworkError {
+    static var empty: AnyPublisher<Output, Failure> { Empty<Data, NetworkError>().eraseToAnyPublisher() }
 }

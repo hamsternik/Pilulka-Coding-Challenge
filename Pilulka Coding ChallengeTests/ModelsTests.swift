@@ -10,7 +10,7 @@ import Combine
 
 @testable import Pilulka_Coding_Challenge
 
-final class NetworkTests: XCTestCase {
+final class ModelsTests: XCTestCase {
     func testAllStatesResponseBodyParsedAtStateVectorsCorrect() {
         let responseJSON = Data.responseJSON(
             forResource: "StatesAllGETResponseBody",
@@ -18,5 +18,12 @@ final class NetworkTests: XCTestCase {
         )
         let stateVectors = try? StateVectors(from: responseJSON)
         XCTAssertNotNil(stateVectors)
+    }
+    
+    func testFlightsAircraftResponseBodyParsedIntoFlights() {
+        let resource = "GETFlightsAircraftResponseBody"
+        let data = Data.responseJSON(forResource: resource)
+        let model = try? ResponseBody.FlightsAircraftGET.decode(from: data)
+        XCTAssertNotNil(model)
     }
 }

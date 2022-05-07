@@ -1,13 +1,17 @@
 //
-//  Responses.swift
+//  ResponseBody.swift
 //  Pilulka Coding Challenge
 //
 //  Created by Nikita Khomitsevych on 05.05.2022.
 //
 
-import SwiftUI
+import struct Foundation.Data
+import class Foundation.JSONDecoder
 
+/// Namespace for all response body models need to handle data explicitly.
 enum ResponseBody {}
+
+// MARK: - ResponseBody+AllStatesGET
 
 extension ResponseBody {
     struct AllStatesGET: Decodable {
@@ -104,4 +108,46 @@ extension ResponseBody.AllStatesGET.WrappedValue {
             DecodingError.Context(codingPath: decoder.codingPath, debugDescription: "Wrong type for WrappedValue")
         )
     }
+}
+
+// MARK: - ResponseBody+FlightsAircraftGET
+
+extension ResponseBody {
+    struct FlightsAircraftGET: Decodable {
+        let icao24: String
+        let firstSeen: Int
+        let estDepartureAirport: String
+        let lastSeen: Int
+        let estArrivalAirport: String?
+        let callsign: String
+        let estDepartureAirportHorizDistance: Int
+        let estDepartureAirportVertDistance: Int
+        let estArrivalAirportHorizDistance: Int
+        let estArrivalAirportVertDistance: Int
+        let departureAirportCandidatesCount: Int
+        let arrivalAirportCandidatesCount: Int
+    }
+}
+
+extension ResponseBody.FlightsAircraftGET {
+    static func decode(from data: Data) throws -> [Self] {
+        try decoder.decode([Self].self, from: data)
+    }
+    
+    private static var decoder: JSONDecoder { JSONDecoder() }
+    
+    static let empty = Self(
+        icao24: "",
+        firstSeen: 0,
+        estDepartureAirport: "",
+        lastSeen: 0,
+        estArrivalAirport: nil,
+        callsign: "",
+        estDepartureAirportHorizDistance: 0,
+        estDepartureAirportVertDistance: 0,
+        estArrivalAirportHorizDistance: 0,
+        estArrivalAirportVertDistance: 0,
+        departureAirportCandidatesCount: 0,
+        arrivalAirportCandidatesCount: 0
+    )
 }

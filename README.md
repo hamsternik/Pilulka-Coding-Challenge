@@ -8,14 +8,14 @@
 
 ### Business Logic
 
-Bounding box for Czech Republic:
-- [Bounding Box Meaning](https://wiki.openstreetmap.org/wiki/Bounding_Box)
-- [Bounding Box Finder (Map)](http://bboxfinder.com)
-
 Cloud API
 - [openSky REST API documentation](https://openskynetwork.github.io/opensky-api/rest.html)
 - [OpenSky Network Map](https://opensky-network.org/network/explorer)
 - [Convert Unix timestamp to the date](https://www.unixtimestamp.com/index.php)
+
+Bounding box for Czech Republic:
+- [Bounding Box Meaning](https://wiki.openstreetmap.org/wiki/Bounding_Box)
+- [Bounding Box Finder (Map)](http://bboxfinder.com)
 
 ### Networking
 

@@ -1,0 +1,30 @@
+[
+    {
+        "icao24": "3c4b31",
+        "firstSeen": 1650791795,
+        "estDepartureAirport": "EDDF",
+        "lastSeen": 1650824577,
+        "estArrivalAirport": "KMIA",
+        "callsign": "DLH462  ",
+        "estDepartureAirportHorizDistance": 1224,
+        "estDepartureAirportVertDistance": 110,
+        "estArrivalAirportHorizDistance": 9703,
+        "estArrivalAirportVertDistance": 355,
+        "departureAirportCandidatesCount": 1,
+        "arrivalAirportCandidatesCount": 8
+    },
+    {
+        "icao24": "3c4b31",
+        "firstSeen": 1650748359,
+        "estDepartureAirport": "KMIA",
+        "lastSeen": 1650780598,
+        "estArrivalAirport": "EDDF",
+        "callsign": "DLH463  ",
+        "estDepartureAirportHorizDistance": 2842,
+        "estDepartureAirportVertDistance": 149,
+        "estArrivalAirportHorizDistance": 992,
+        "estArrivalAirportVertDistance": 117,
+        "departureAirportCandidatesCount": 1,
+        "arrivalAirportCandidatesCount": 5
+    }
+]
